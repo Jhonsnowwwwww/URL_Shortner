@@ -1,0 +1,48 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.container {
+  background-color: rgb(23, 23, 129); /* Set background color to blue */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.short-image {
+  width: 200px; /* Adjust the size of the image */
+  margin: 20px 0; /* Add some space around the image */
+}
+
+.input-box, .output-box {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.submit-button {
+  background-color: #16e51d;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+
+h1, label {
+  color: white;
+}
