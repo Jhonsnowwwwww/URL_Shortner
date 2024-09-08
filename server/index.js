@@ -22,6 +22,7 @@ mongoose.connect(process.env.MONGO_DB + DB_NAME)
         app.use(express.json({limit: "16kb"}));
         app.use(cors({
             origin: process.env.CORS_ORIGIN,
+            allowedHeaders: 'Content-Type,Authorization',
         }));
         app.use((req, res, next) => {
             res.header("Access-Control-Allow-Origin", `${process.env.CORS_ORIGIN}`);
