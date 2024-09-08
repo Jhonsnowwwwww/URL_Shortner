@@ -18,8 +18,8 @@ This is a URL Shortener application that allows users to shorten long URLs and r
 Follow the instructions in the `setup.md` file to set up and run the application locally.  
 
 ## Deployment Links  
-- **Frontend Deployment Link**: [Your Frontend URL](<frontend-deployment-url>)  
-- **Backend API Endpoint**: [Your API URL](<backend-api-url>)  
+- **Frontend Deployment Link**: https://url-shortner-ko9o.vercel.app/(<frontend-deployment-url>)  
+- **Backend API Endpoint**: https://vercel.com/yash-guptas-projects-3f884cdd/myprojectbackend(<backend-api-url>)  
 
 ## License  
 This project is licensed under the MIT License.
