@@ -1,27 +1,25 @@
 # URL Shortener Application  
 
-## Architecture Overview  
+## Overview  
+This is a URL Shortener application that allows users to shorten long URLs and retrieve them easily. The application is built using React for the frontend and Node.js with MongoDB for the backend.  
 
-The URL Shortener Application is designed to provide users with a simple interface for shortening long URLs. This application follows a client-server architecture, where the frontend interacts with backend services through an API. The backend is implemented using AWS services, enabling a scalable and cost-effective solution.  
+## Features  
+- Shorten long URLs  
+- Retrieve original URLs from shortened links  
+- User-friendly interface  
 
-### Components:  
-- **Frontend**:   
-  - Built with React for a responsive user interface.  
-  - Users can enter long URLs which are shortened by the backend.  
-  
-- **Backend**:  
-  - **API Gateway**: Manages incoming HTTP requests and routes them to the appropriate AWS Lambda functions.  
-  - **Lambda Functions**: Handles the core logic of URL shortening, including database interactions.  
-  - **DynamoDB**: A NoSQL database to store the original long URLs and their shortened counterparts.  
-  - **S3**: (Optional) To serve any static assets if needed in the future.  
+## Technologies Used  
+- **Frontend**: React  
+- **Backend**: Node.js, Express  
+- **Database**: MongoDB (using MongoDB Atlas)  
+- **Deployment**: Vercel app  
 
-### Open-Source Technologies Used  
-- **React**: For building the user interface.  
-- **AWS SDK**: For interacting with AWS services.  
-- **Serverless Framework**: Facilitates the deployment and management of AWS Lambda functions and resources.  
+## Getting Started  
+Follow the instructions in the `setup.md` file to set up and run the application locally.  
 
-## Acknowledgments  
-- This project leverages various open-source technologies, including React and the Serverless framework, which have been instrumental in building and deploying the application effectively.  
+## Deployment Links  
+- **Frontend Deployment Link**: [Your Frontend URL](<frontend-deployment-url>)  
+- **Backend API Endpoint**: [Your API URL](<backend-api-url>)  
 
-## Local Development  
-To run the application locally, clone the repository and follow the setup instructions in `setup.md`.
+## License  
+This project is licensed under the MIT License.
